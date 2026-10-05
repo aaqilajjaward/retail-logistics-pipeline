@@ -1,0 +1,50 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+transform_dbt/target/
+transform_dbt/dbt_packages/
+
+# macOS system files (Essential for Macs)
+.AppleDouble
+.LSOverride
+
+# Python build/distribution systems (Crucial as your code grows)
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# IDE and Editor configs (Keeps Cursor workspace local to you)
+.vscode/
+.idea/
+.cursor/
+
+# Jupyter Notebook checkpoints (Highly likely you'll use notebooks for data testing)
+.ipynb_checkpoints/
+
+# Security & Cloud Credentials
+*.pem
+*.key
+aws_credentials
+.aws/
+
+# Data and Storage (Crucial for Data Engineering)
+*.csv
+*.json
+*.parquet
+*.parquet.gzip
+data/
+downloads/
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
